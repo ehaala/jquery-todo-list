@@ -1,0 +1,59 @@
+body {
+	text-align: center;
+	background: lightyellow;
+}
+
+h1 {
+	font-family: copperplate, sans-serif;
+	font-size: 48px;
+	text-decoration: underline;
+}
+
+#form {
+	width: 250px;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+}
+
+#task {
+	font-size: 20px;
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	margin-left: 5px;
+}
+
+#submit {
+	font-family: copperplate, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	background: lightblue;
+}
+
+#list {
+	background: lightyellow;
+	width: 500px;
+	display: inline-block;
+	text-align: left;
+	font-size: 24px;
+	font-family: "Comic Sans MS", sans-serif;
+	list-style-type: none;
+}
+
+
+li {
+	border-bottom: 2px solid lightblue;
+	padding-left: 20px;
+	min-width: 200px;
+	width: auto;
+}
+
+li:hover {
+	text-transform: uppercase;
+	border-bottom: 2px solid red;
+}
+
+img {
+	float: left;
+}
